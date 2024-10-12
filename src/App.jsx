@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Home from './Screens/Home'
-import Login from './Screens/login';
+import Login from "./Screens/Login.jsx"
 import { setClientToken } from './spotify';
 
 
