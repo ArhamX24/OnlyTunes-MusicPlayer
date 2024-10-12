@@ -9,7 +9,6 @@ import Trending from "./Screens/Player.jsx"
 import Player from './Screens/Player.jsx'
 import Favorites from './Screens/Favorites.jsx'
 import Library from './Screens/Library.jsx'
-import Login from './Screens/login.jsx'
 
 let AppRouter = createBrowserRouter([
   {
