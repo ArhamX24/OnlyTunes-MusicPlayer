@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SIdeBar from '../Components/SIdeBar'
+import SIdeBar from '../Components/SideBar'
 import Library from "./Library"
 import '../Styles/home.css'
 import { Outlet } from 'react-router-dom'
