@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SIdeBar from '../Components/SideBar'
+import SideBar from "../Components/SideBar"
 import Library from "./Library"
 import '../Styles/home.css'
 import { Outlet } from 'react-router-dom'
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className='main-body'>
-      <SIdeBar></SIdeBar>
+      <SideBar></SideBar>
       <Outlet></Outlet>
     </div>
   )

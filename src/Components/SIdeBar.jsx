@@ -7,7 +7,7 @@ import {FaGripfire, FaPlay, FaSignOutAlt} from 'react-icons/fa'
 import {IoLibrary} from 'react-icons/io5'
 import Favorites from '../Screens/Favorites'
 
-const SIdeBar = () => {
+const SideBar = () => {
 
   const handleLogout = () => {
     window.localStorage.removeItem("Token")
@@ -36,4 +36,4 @@ const SIdeBar = () => {
   )
 }
 
-export default SIdeBar
+export default SideBar
